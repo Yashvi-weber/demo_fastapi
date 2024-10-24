@@ -17,3 +17,8 @@ class User_Return_Schema(BaseModel):
     name: str
     email: str
     password: str
+
+class PatchUserSchema(BaseModel):
+    name: Optional[str] = None
+    email: Optional[str] = None
+    password: Optional[str] = None
