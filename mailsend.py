@@ -8,7 +8,7 @@ def send_email(sender, receiver, subject, body):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     smtp_user = "yashvisavajgdgssasit@gmail.com"
-    smtp_pass = "dpffibhcvjlztpay"
+    smtp_pass = ""
 
     #build the mail system to send someone
     msg = MIMEMultipart()
