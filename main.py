@@ -8,3 +8,4 @@ def read_root():
 
 
 app.include_router(user_router)
+

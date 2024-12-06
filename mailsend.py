@@ -8,7 +8,7 @@ def send_email(sender, receiver, subject, body):
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
     smtp_user = "yashvisavajgdgssasit@gmail.com"
-    smtp_pass = ""
+    smtp_pass = "iogw muay zbez cuqx"
 
     #build the mail system to send someone
     msg = MIMEMultipart()
@@ -31,9 +31,15 @@ def send_email(sender, receiver, subject, body):
 
 import random
 
-otp = random.randint(1000, 9999)
 
 # Email details
-send_email("yashvisavajgdgssasit@gmail.com", #sender
-           "yashvisavaj2121@gmail.com",#reciver
+for i in range(10):
+    otp = random.randint(1000, 9999)
+
+    send_email("yashvisavajgdgssasit@gmail.com", #sender
+           "savaliyaankit5125@gmail.com",#reciver
              "Test Email", f"Otp is {otp}")
+    #gauravparmar60689@gmail
+    #aasthagorsiya1411@gmail.com
+    #shreyashpategdgssasit@gmail.com
+    #avaliyaankit5125@gmail.com
